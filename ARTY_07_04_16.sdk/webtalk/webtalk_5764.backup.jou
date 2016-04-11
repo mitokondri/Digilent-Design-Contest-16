@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Thu Apr 07 11:43:43 2016
+# Process ID: 5764
+# Current directory: C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,126 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 7704
+
+Current time: 	4/12/16 1:09:21 AM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	Emre
+User home directory: C:/Users/Emre
+User working directory: C:/Users/Emre/Documents/Vivado/ARTY_07_04_16
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+Vivado preferences path: C:/Users/Emre/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/Emre/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	229 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 407 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Emre\Documents\Vivado\ARTY_07_04_16\ARTY_07_04_16.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.xpr 
+// [GUI Memory]: 34 MB (+32936kb) [00:00:05]
+// [Engine Memory]: 391 MB (+258644kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 448 MB. GUI used memory: 28 MB. Current time: 4/12/16 1:09:23 AM EEST
+// [Engine Memory]: 473 MB (+65287kb) [00:00:10]
+// [Engine Memory]: 512 MB (+16009kb) [00:00:15]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 576 MB (+40506kb) [00:00:20]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 37 MB (+1960kb) [00:00:21]
+// [Engine Memory]: 644 MB (+41372kb) [00:00:21]
+// [GUI Memory]: 135 MB (+100139kb) [00:00:22]
+// [Engine Memory]: 788 MB (+117037kb) [00:00:22]
+// [GUI Memory]: 142 MB (+77kb) [00:00:22]
+// [GUI Memory]: 149 MB (+315kb) [00:00:23]
+// [GUI Memory]: 161 MB (+4266kb) [00:00:24]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Emre/Desktop/vivado-library-master'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 62 MB. Current time: 4/12/16 1:09:39 AM EEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: ARTY_07_04_16; location: C:/Users/Emre/Documents/Vivado/ARTY_07_04_16; part: xc7a35ticsg324-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:22 . Memory (MB): peak = 1041.039 ; gain = 359.613 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5, true); // w:Y (v:I, cq:JFrame) - Node
+// [Engine Memory]: 837 MB (+9790kb) [00:00:32]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5, true); // w:Y (v:I, cq:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// bF:g (cq:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.srcs/sources_1/bd/system/system.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:clk_wiz:5.2 - clk_wiz_0 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mig_7series:2.4 - mig_7series_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_0 
+// [Engine Memory]: 921 MB (+44535kb) [00:00:42]
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_1 
+// TclEventType: RSB_PROPERTY_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 963 MB. GUI used memory: 62 MB. Current time: 4/12/16 1:09:58 AM EEST
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - tier2_xbar_2 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,011 MB (+45650kb) [00:00:45]
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10 Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10 Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram Successfully read diagram <system> from BD file <C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.srcs/sources_1/bd/system/system.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// [Engine Memory]: 1,078 MB (+17423kb) [00:00:48]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 1320.293 ; gain = 274.625 
+// Elapsed time: 13 seconds
+dismissDialog("Open Block Design"); // bF:g (cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Board", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// Elapsed time: 42 seconds
+setText("RDIResource.SearchCommandComponent_SEARCH_COMMANDS", "laun", true); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// Q:x (cq:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:x)
+dismissDialog("Launch SDK"); // Q:x (cq:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk -hwspec C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk -hwspec C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 

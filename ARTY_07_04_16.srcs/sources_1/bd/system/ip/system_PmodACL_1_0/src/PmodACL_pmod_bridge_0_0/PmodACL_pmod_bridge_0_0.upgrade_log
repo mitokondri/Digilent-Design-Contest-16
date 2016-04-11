@@ -1,0 +1,49 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Thu Apr 07 04:35:29 2016
+| Host         : Emre-Bilgisayar running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a35ticsg324-1L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PmodACL_pmod_bridge_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of PmodACL_pmod_bridge_0_0 (digilentinc.com:ip:pmod_bridge:1.0 (Rev. 6)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading IP 'PmodACL_pmod_bridge_0_0'.
+
+
+-upgrade has added interface 'GPIO_Bottom_Row'
+-upgrade has added interface 'SPI_Top_Row'
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'PmodACL_pmod_bridge_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'in4_I'
+-upgrade has removed port 'in4_O'
+-upgrade has removed port 'in4_T'
+-upgrade has removed port 'in5_I'
+-upgrade has removed port 'in5_O'
+-upgrade has removed port 'in5_T'
+-upgrade has removed port 'in6_I'
+-upgrade has removed port 'in6_O'
+-upgrade has removed port 'in6_T'
+-upgrade has removed port 'in7_I'
+-upgrade has removed port 'in7_O'
+-upgrade has removed port 'in7_T'
+-upgrade has added port 'in_bottom_bus_I'
+-upgrade has added port 'in_bottom_bus_O'
+-upgrade has added port 'in_bottom_bus_T'
+

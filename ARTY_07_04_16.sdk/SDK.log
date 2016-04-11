@@ -1,0 +1,33 @@
+11:32:44 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:32:46 INFO  : XSDB server has started successfully.
+11:32:47 INFO  : Processing command line option -hwspec C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper.hdf.
+11:43:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319754585A" && level==0} -index 0' command is executed.
+11:43:23 INFO  : FPGA configured successfully with bitstream "C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper_hw_platform_0/download.bit"
+11:43:39 INFO  : Processor reset is completed for microblaze_0
+11:43:39 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:43:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:43:55 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:43:56 INFO  : XSDB server has started successfully.
+11:43:56 INFO  : Processing command line option -hwspec C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper.hdf.
+11:43:57 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:44:08 INFO  : Processor reset is completed for microblaze_0
+11:44:44 INFO  : Processor reset is completed for microblaze_0
+11:48:24 INFO  : Processor reset is completed for microblaze_0
+12:05:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:10:59 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+01:11:00 INFO  : XSDB server has started successfully.
+01:11:00 INFO  : Processing command line option -hwspec C:/Users/Emre/Documents/Vivado/ARTY_07_04_16/ARTY_07_04_16.sdk/system_wrapper.hdf.
+01:11:01 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
